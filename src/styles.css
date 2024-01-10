@@ -1,0 +1,65 @@
+/* styles.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #000; /* Dark background color */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #fff; /* White text color */
+}
+
+.container {
+  background-color: #111; /* Darker container background color */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Slight white shadow */
+}
+
+h1 {
+  text-align: center;
+  color: #55aaff; /* Neon blue accent color */
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #00ff55; /* Neon green border color */
+  border-radius: 4px;
+  outline: none;
+  background-color: #000; /* Dark input background color */
+  color: #fff; /* White text color */
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #ff00ff; /* Neon magenta button color */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+span {
+  font-weight: bold;
+  color: #00ffaa; /* Neon cyan text color */
+}
+
+.loading {
+  text-align: center;
+  margin-top: 20px;
+  color: #555; /* Darker text color */
+}
